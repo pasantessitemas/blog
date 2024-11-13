@@ -48,6 +48,15 @@
         width: 150px;
         height: 90px;
     }
+
+
+    .img02{
+        top: 40vh;
+        width: 300px;
+        height: 250px;
+        left: 100vh;
+    }
+
      
      .input-group-text{
         width: 50px;
