@@ -1,0 +1,21 @@
+{
+    "name": "phanda-framework/dotenv",
+    "description": "A wrapper around vlucas/dotenv that provides additional functionality. Used in the Phanda framework to allow loading of multiple dotenv files.",
+    "type": "library",
+    "require": {
+        "vlucas/phpdotenv": "^2.5@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Storm Burpee",
+            "email": "storm@phandaframework.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phanda\\": "src/Phanda/"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phanda-framework/dotenv": "^0.1.2"
+    }
+}
