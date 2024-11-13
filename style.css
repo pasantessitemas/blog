@@ -24,7 +24,7 @@
         padding: 1em;
         text-align: center;
     }
-    
+
         
     .container-3{
         width: 150px;
@@ -73,6 +73,34 @@
         text-align: center;
         font-family:Arial, Helvetica, sans-serif;
         right:0%;
+        font-size: 15px;
+     }
+     .form-control-3{
+        width: 300px;
+        height: 45px;
+        font-family:Arial, Helvetica, sans-serif;
+        right:0%;
+        font-size: 15px;
+     }
+
+     .dropdown{
+        width: 300px;
+        height: 30px;
+        text-align:justify;
+        margin-left: 20vh;
+     }
+    
+     .dropdown-2{
+        width: 300px;
+        height: 30px;
+        text-align:justify;
+        margin-left: 20vh;
+        
+     }
+
+     .btn{
+        width: 200px;
+        height: 4vh;
      }
     
     .input-group-text{
@@ -147,7 +175,7 @@
         justify-content: center;
         font-size: 25px;
         background-color: rgb(247, 107, 14);
-        height: 370px;
+        height: 380px;
         border-style: solid;
         shape-margin: 20px; color: rgb(0, 0, 0);
      }
@@ -165,9 +193,9 @@
         background-color: rgb(221, 225, 226);
         color: black;
         width: 150px;
-        height: 30px;
+        height: 35px;
         text-align: center;
-    
+        font-size: 15px;
     }
     
     
@@ -198,6 +226,19 @@
     left: 15px;
 }
 
- 
+.body-1{
+    font-family: Arial, sans-serif;
+        font-size: 10px;
+        padding: 90px 20px 0;
+        background-color:#3a68cc;
+        margin: 20vh;
+        padding: 0;
+}
+
+.container-5{
+    width: 200px;
+
+}
+
 
     
