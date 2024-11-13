@@ -24,7 +24,7 @@
             </ul>
         </nav>
         <h1>MAGIC BLOC</h1>
-        <H1> Registrate </H1>
+        <h1>Registrate</h1>
         <br>
 
     </header>
@@ -34,17 +34,17 @@
         <div class="container-4">
             <form action="controllers/registro.php" method="post">
                     
-                <input type="text" class="form-control" name="name" placeholder="nombre">
+                <input type="text" class="form-control" name="name" placeholder="nombre" required>
                 <br>
-                <input type="text" class="form-control" name="last_name" placeholder="apellido">
+                <input type="text" class="form-control" name="last_name" placeholder="apellido" required>
                 <br>
-                <input type="text" class="form-control" name="email" placeholder="correo">
+                <input type="email" class="form-control" name="email" placeholder="correo" required>
                 <br>
-                <input type="text" class="form-control" name="username" placeholder="usuario">
+                <input type="text" class="form-control" name="username" placeholder="usuario" required>
                 <br>
-                <input type="password" class="form-control" name="password" placeholder="contraseña">
+                <input type="password" class="form-control" name="password" placeholder="contraseña" required>
                 <br>
-                <button class="button-2">enviar</button>
+                <button type="submit" class="button-2">enviar</button>
             </form>
 
         </div>
@@ -52,8 +52,5 @@
     </main>
 </body>
 </html>
-
-    
-
 
 
