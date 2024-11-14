@@ -101,6 +101,7 @@
      .btn{
         width: 200px;
         height: 4vh;
+        background-color: #729b92;
      }
     
     .input-group-text{
@@ -143,6 +144,7 @@
         left: 70vh;
         border-style: solid;
         shape-margin: 20px; color: rgb(0, 0, 0);
+        border-radius: 10px;
         
      }
     
@@ -178,6 +180,7 @@
         height: 380px;
         border-style: solid;
         shape-margin: 20px; color: rgb(0, 0, 0);
+        border-radius: 10%;
      }
     
      
@@ -228,17 +231,48 @@
 
 .body-1{
     font-family: Arial, sans-serif;
-        font-size: 10px;
+        font-size: 10px; 
+color: #f4f5f5;
         padding: 90px 20px 0;
-        background-color:#3a68cc;
-        margin: 20vh;
+        background-color:#305cbb;
         padding: 0;
+        top: 0%;
+        display: flex;
 }
 
-.container-5{
-    width: 200px;
-
+.card{
+    width: 50px;
+    height: 30px;
+    margin-left: 60vh;
+    right: 20vh;
+}
+.card-body{
+    width: 100px;
+    height: 40px;
 }
 
+.container-contenido{
+    position: relative;
+    width: 400px;
+    max-height: 600px;
+    align-content: center;
+    align-items: center;
+    margin: 20vh;
+    padding: 20px;
+    margin-top: 50vh;
+}
 
+.container-contenido 
+.img{
+    width: 10px;
+    height: auto;
+}
+
+.texto-2{
+    width: ;
+    font-size: 20px;
+    position: relative;
+    left: 50vh;
+    bottom: 25vh;
     
+}
