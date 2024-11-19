@@ -257,7 +257,7 @@ header {
     align-items: center;
     margin: 20vh;
     padding: 40px;
-    margin-top: 40vh;
+    margin-top: 80vh;
 
 }
 
@@ -267,8 +267,9 @@ header {
     position: fixed;
     align-content: center;
     left: 60vh;
-    bottom: 10vh;
+    bottom: 6vh;
     margin-left: 30px;
+    
 
 }
 
