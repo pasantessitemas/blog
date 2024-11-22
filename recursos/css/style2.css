@@ -5,7 +5,7 @@
     height: 30px;
 }
 
-.header-6{z
+.header-6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: rgb(145, 145, 238);
@@ -13,7 +13,7 @@
     text-align: center;
    border-color: rgb(56, 92, 209); 
    border-style: solid;
-shape-margin: 20vh;
+   shape-margin: 20vh;
 }
 
 .img04{
@@ -67,9 +67,7 @@ shape-margin: 10vh;
     shape-margin: 10vh;
 }
 
-.container-5{
-    background-color: royalblue;
-}
+
 
 .links-1{
     margin: 0;

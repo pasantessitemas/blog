@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-image: url(../img/fondo_principal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  width: 40vh;
+  height: 35vh;
+  margin-left: 80vh;
+  margin-top: 16vh;
+
+  background-color: rgba(127, 155, 233, 0.7);
+  border-radius: 8vh;
+  margin-right: 20vh;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
+
+}
+
+.titulo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40PX;
+  color: aliceblue;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3%;
+  margin-left: 80vh;
+  
+}
+
+.container-fluid{
+  background-color: rgb(140, 157, 235, 0.3);
+}
+ 
+.navbar-brand{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.logo1{
+  width: 13vh;
+  height: 13vh;
+  border-radius: 60%;
+  border-style: solid;
+  shape-margin: 10%;
+  margin-left: 13vh;
+  margin-top: 4%;
+}
+
+
+
+.input-group {
+  width: 35vh;
+  margin-left: 2%;
+  padding: 0;
+  bottom: -3vh;
+  left: 6px;
+}
+
+
+.input-group-text {
+  width: 12vh;
+  height: 4vh;
+  margin-top: 2%;
+  background-color: rgb(69, 78, 160);
+  color: aliceblue;
+
+}
+
+.form-control {
+  height: 4vh;
+  width: 30vh;
+  margin-left: 5vh;
+  margin-top: 2%;
+
+}
+
+.boton{
+ margin-left: 14vh;
+margin-top: 5vh;
+}
+
+.btn{
+  width: 10vh;
+  background-color: rgb(69, 78, 160);
+}
+
+

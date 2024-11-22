@@ -1,0 +1,83 @@
+/* Archivo: style.css */
+
+/*INICIO DE SESION*/
+* {
+    margin: 0;
+}
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    width: 100%;
+    background-image: url(../img/fondo_principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 13vh;
+    height: 13vh;
+    border-radius: 60%;
+    border-style: solid;
+    shape-margin: 10%;
+    margin-left: 13vh;
+}
+
+
+.container-fluid {
+    background-color:rgb(140, 157, 235, 0.3);
+}
+
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.container2 {
+    position: relative;
+    width: 40vh;
+    height: 50vh;
+    margin-left: 80vh;
+    margin-top: 10vh;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(127, 155, 233, 0.7);
+    border-radius: 8vh;
+    margin-right: 20vh;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
+}
+
+.form-control {
+    width: 30vh;
+    margin-top: 3%;
+    margin-left: 5vh;
+}
+
+.form-select {
+    width: 30vh;
+    margin-top: 3%;
+    margin-left: 5vh;
+}
+
+
+.input-group-text {
+    margin-top: 3%
+}
+
+.btn {
+    margin-top: 4%;
+    margin-left: 14vh;
+    background-color:  rgb(69, 78, 160);
+  }
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+    justify-content: center;
+    align-content: center;
+    margin-left: 88vh;
+    margin-top: 4%;
+     }
+     

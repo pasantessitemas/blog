@@ -1,0 +1,89 @@
+:root {
+    --main-bg-color: rgb(0, 252, 197);
+    --main-color: rgb(0, 0, 0);
+    --main-font: Arial, Helvetica, sans-serif;
+    --main-font-size: 15px;
+}
+
+body {
+   
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    width: 100%;
+    padding: 0; /* Cambiado a 0, 'auto' no es válido aquí */
+    margin: 0;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 20vh;
+    width: 20%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco con 80% de opacidad */
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    animation: slide-in 1s ease-in;
+}
+
+#logo {
+    position: relative;
+    width: 30%;
+    margin-top: -10%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    animation: fade-in 1s ease-in-out;
+}
+
+h4 { 
+    font-size: 20px bold; 
+    color: rgb(247, 140, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-register {
+    position: relative;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#contrasena2{
+    margin-bottom: 20px;
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
