@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.container-fluid {
+    background-image: url(../img/MEDIO_AMBIENTE.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 40vh;
+    left: 100vh;
+}
+
+.logo {
+    width: 18vh;
+    height: 20.vh;
+    position: relative;
+    right: 85vh;
+    border-radius: 10vh;
+    border-style: solid;
+    shape-margin: 15%;
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(128, 224, 170);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    position: relative;
+    right: 80vh;
+}
+
+.nav-item .btn {
+    position: relative;
+    left: -105vh;
+    top: 8vh;
+    height: 4vh;
+    width: 15vh;
+    background-color: rgb(212, 57, 57);
+    border-radius: 15vh;
+    border-style: solid;
+    shape-margin: 10%;
+
+}
+
+
+.container {
+    background-color: rgba(29, 70, 148, 0.5);
+    position: relative;
+    width: 140vh;
+    left: 10vh;
+    justify-content: center;
+    align-content: center;
+    margin-top: -120vh;
+
+}
+
+.img07 {
+
+    width: 40vh;
+    height: 25vh;
+    position: relative;
+    left: 23vh;
+    bottom: 3vh;
+    border-radius: 8%;
+    shape-margin: 2%;
+    border-style: solid;
+}
+
+.img06 {
+    width: 40vh;
+    height: 25vh;
+    position: relative;
+    left: 40vh;
+    border-radius: 8%;
+    shape-margin: 2%;
+    border-style: solid;
+    animation: fade-in 4s ease-in-out forwards;
+
+}
+
+.img11 {
+    height: 20vh;
+}
+
+.imagen {
+    position: relative;
+    width: 5vh;
+}
+
+.imagn {
+    position: relative;
+    width: 7vh;
+    right: 1vh;
+
+}
+
+.paginas {
+    position: relative;
+    top: 10vh;
+    left: 24vh;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(29, 70, 148, 0.5);
+
+}
+
+.pagina {
+    position: relative;
+    top: 128px;
+    left: -5vh;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pagina2 {
+
+    position: relative;
+    top: -3vh;
+    left: 1vh;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.paginas1 {
+    position: relative;
+    color: aliceblue;
+    left: 50vh;
+    top: -10vh;
+}
+
+
+.titulo {
+    font-family: Georgia, 'Times New Roman5', Times, serif;
+    font-size: 50px;
+    position: relative;
+    left: 24vh;
+    top: -10vh;
+}
+
+.enlace {
+    position: relative;
+    left: 30vh;
+
+}
+
+.btn {
+    position: relative;
+    left: 35vh;
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 0%;
+    background-color: rgb(140, 157, 235, 0.3);
+
+
+}
+
+.logo1{
+    width: 10vh;
+    height: 10;
+    position: relative;
+    top: 25vh;
+    left: -17vh;
+    border-radius: 15vh;
+}
+
+.parrafo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.informacion {
+    background-color: rgb(9, 32, 75);
+    width: 30vh;
+    position: relative;
+    left: 5vh;
+    top: 6vh;
+    margin-left: 1vh;
+    align-items: center;
+    animation: Slide-in 4s ease-in-out forwards;
+}
+
+.informacion .btn {
+    position: relative;
+    left: 2%;
+}
+
+.form-floating {
+    position: relative;
+    left: 10vh;
+    top: 2vh;
+    width: 180vh;
+}
+
+.form-floating .btn {
+    position: relative;
+    left: 85vh;
+    top: 1vh;
+}
+
+.entradas{
+
+    position: relative;
+    left: -10vh;
+}
+
+.row {
+    width: 70vh;
+    left: 115vh;
+    top: -2vh;
+    position: relative;
+    animation: float-in 4s ease-in-out forwards;
+
+
+}
+
+
+.row .btn {
+
+    position: relative;
+    left: 20vh;
+    color: rgb(255, 255, 255);
+
+}
+
+.pie{
+    position: relative;
+    left: 60vh;
+}
+
+
+
+@keyframes Slide-in {
+    from {
+        transform: translateX(-200%);
+    }
+
+    top {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float-in {
+    from {
+        transform: translateY(200%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

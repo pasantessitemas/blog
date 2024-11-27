@@ -6,7 +6,7 @@
 }
 
 body {  
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     padding: 0;
     width: 100%;
@@ -46,6 +46,7 @@ body {
     border-radius: 8vh;
     margin-right: 20vh;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
+   animation:  Slide-in 2s ease-in-out forwards;
 }
 
 .form-control {
@@ -77,7 +78,16 @@ body {
     color: aliceblue;
     justify-content: center;
     align-content: center;
-    margin-left: 88vh;
+    margin-left: 85vh;
     margin-top: 4%;
      }
+
+     @keyframes Slide-in {
+        from {
+          transform: translateX(200%);
+        }
+        top {
+          transform: translateX(0);
+        }
+      }
      

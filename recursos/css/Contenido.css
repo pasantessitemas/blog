@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-image: url(../img/fondo_principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid{
+    background-color: rgb(140, 157, 235, 0.3);
+  }
+
+.card {
+    position: relative;
+    width: 60vh;
+    height: 35vh;
+    margin-left: 70vh;
+    margin-top: 2%;
+    margin-bottom: 20vh;
+    border-radius: 8vh;
+    margin-right: 20vh;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: -40vh;
+    top: 20vh;
+    animation:  fade-in 2s ease-in-out forwards;
+}
+
+.contenido {
+    width: 50vh;
+    left: 20vh;
+    height: 2%;
+    justify-content: center;
+    position: relative;
+    margin-left: 80vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: -30%;
+    animation:  fade-in 2s ease-in-out forwards;
+  }
+  .logo{
+    right: 40vh;
+    width: 30vh;
+    height: 40vh;
+    border-radius: 15vh;
+    border-style: solid;
+    shape-margin: 15%;
+    color: black;
+    top: 40vh;
+    margin-top: 25vh;
+    position: relative;
+    animation: slide-in 1s ease-in;
+   
+  }
+
+  .btn{
+
+
+    width: 40vh;
+    height: 5vh;
+    justify-content: center  ;
+    position: relative;
+    margin-left: 110vh;
+    bottom: 30vh;
+    animation:  fade-in 2s ease-in-out forwards;
+
+
+  }
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

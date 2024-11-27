@@ -3,37 +3,42 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   background-image: url(../img/fondo_principal.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .container {
   position: relative;
   width: 40vh;
-  height: 35vh;
+  height: 38vh;
   margin-left: 80vh;
   margin-top: 16vh;
-
-  background-color: rgba(127, 155, 233, 0.7);
+  background-color: rgba(127, 155, 233,0.7);
   border-radius: 8vh;
   margin-right: 20vh;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
+  animation:  Slide-in 2s ease-in-out forwards;
 
 }
 
 .titulo{
+  width: 45vh;
+  left: 10vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40PX;
   color: aliceblue;
   justify-content: center;
   align-content: center;
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 80vh;
-  
-}
+ 
+}  
+
+
 
 .container-fluid{
   background-color: rgb(140, 157, 235, 0.3);
@@ -87,9 +92,21 @@ body {
 margin-top: 5vh;
 }
 
+
+
 .btn{
   width: 10vh;
   background-color: rgb(69, 78, 160);
 }
+
+@keyframes Slide-in {
+  from {
+    transform: translateX(200%);
+  }
+  top {
+    transform: translateX(0);
+  }
+}
+
 
 
