@@ -223,7 +223,7 @@ body {
 
 .row {
     width: 70vh;
-    left: 115vh;
+    left: 70vh;
     top: -2vh;
     position: relative;
     animation: float-in 4s ease-in-out forwards;

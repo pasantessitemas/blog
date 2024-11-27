@@ -53,3 +53,16 @@ body {
     shape-margin: 10%;
 
 }
+
+.contenido{
+    background-color: rgba(29, 70, 148, 0.5);
+    position: relative;
+    width: 140vh;
+    height: 30vh;
+    left: 40vh;
+    justify-content: center;
+    align-content: center;
+    top: 15vh;
+    border-radius: 10vh;
+
+}
