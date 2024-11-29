@@ -99,6 +99,25 @@ margin-top: 5vh;
   background-color: rgb(69, 78, 160);
 }
 
+.footer{
+  position: relative;
+  top: 14vh;
+  width: 201,5vh;
+  height: 10vh;
+  border-radius: 0%;
+  background-color: rgb(140, 157, 235, 0.3);
+  color: aliceblue;
+
+}
+
+.pie{
+  position: relative;
+  left:88vh;
+  top: 4vh;
+}
+
+
+
 @keyframes Slide-in {
   from {
     transform: translateX(200%);
@@ -107,6 +126,4 @@ margin-top: 5vh;
     transform: translateX(0);
   }
 }
-
-
 
