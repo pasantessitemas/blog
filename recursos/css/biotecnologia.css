@@ -8,7 +8,6 @@ body {
     color: aliceblue;
     background-color: rgb(0, 0, 0);
 
-
 }
 
 .container-fluid {
@@ -51,7 +50,6 @@ body {
     border-radius: 15vh;
     border-style: solid;
     shape-margin: 10%;
-
 }
 
 
@@ -63,96 +61,7 @@ body {
     justify-content: center;
     align-content: center;
     margin-top: -140vh;
-
 }
-
-.subtitulo{
-    position: relative;
-    top: 5vh;
-    left: -108vh;
-    color: black;
-}
-
-.img07 {
-
-    width: 40vh;
-    height: 25vh;
-    position: relative;
-    left: 23vh;
-    bottom: 3vh;
-    border-radius: 8%;
-    shape-margin: 2%;
-    border-style: solid;
-}
-
-.img06 {
-    width: 40vh;
-    height: 25vh;
-    position: relative;
-    left: 40vh;
-    border-radius: 8%;
-    shape-margin: 2%;
-    border-style: solid;
-    animation: fade-in 4s ease-in-out forwards;
-
-}
-
-.img11 {
-    height: 20vh;
-}
-
-.imagen {
-    position: relative;
-    width: 5vh;
-    color: aliceblue;
-}
-
-.imagn {
-    position: relative;
-    width: 7vh;
-    right: 1vh;
-    color: aliceblue;
-
-}
-
-
-
-.paginas {
-    position: relative;
-    top: 10vh;
-    left: 24vh;
-    align-items: center;
-    font-size: 15px;
-    color: rgba(248, 248, 248, 0.5);
-
-}
-
-.pagina {
-    position: relative;
-    top: 128px;
-    left: -5vh;
-    align-items: center;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.pagina2 {
-
-    position: relative;
-    top: -3vh;
-    left: 1vh;
-    align-items: center;
-    font-size: 16px;
-    color: aliceblue;
-}
-
-.paginas1 {
-    position: relative;
-    color: aliceblue;
-    left: 55vh;
-    top: -11vh;
-}
-
 
 .titulo {
     font-family: Georgia, 'Times New Roman5', Times, serif;
@@ -165,23 +74,6 @@ body {
 .enlace {
     position: relative;
     left: 30vh;
-
-}
-
-.btn {
-    position: relative;
-    left: 35vh;
-}
-
-.card {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: aliceblue;
-    border-radius: 0%;
-    background-color: rgb(140, 157, 235, 0.3);
-
-
-
 }
 
 .logo1 {
@@ -213,6 +105,107 @@ body {
     position: relative;
     left: 2%;
 }
+
+
+
+.subtitulo{
+    position: relative;
+    top: 5vh;
+    left: -108vh;
+    color: black;
+}
+
+.img07 {
+
+    width: 40vh;
+    height: 25vh;
+    position: relative;
+    left: 23vh;
+    bottom: 3vh;
+    border-radius: 8%;
+    shape-margin: 2%;
+    border-style: solid;
+}
+
+.img06 {
+    width: 40vh;
+    height: 25vh;
+    position: relative;
+    left: 40vh;
+    border-radius: 8%;
+    shape-margin: 2%;
+    border-style: solid;
+    animation: fade-in 4s ease-in-out forwards;
+}
+
+.img11 {
+    height: 20vh;
+}
+
+.imagen {
+    position: relative;
+    width: 5vh;
+    color: aliceblue;
+}
+
+.imagn {
+    position: relative;
+    width: 7vh;
+    right: 1vh;
+    color: aliceblue;
+}
+
+
+
+.paginas {
+    position: relative;
+    top: 10vh;
+    left: 24vh;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(248, 248, 248, 0.5);
+}
+
+.pagina {
+    position: relative;
+    top: 128px;
+    left: -5vh;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pagina2 {
+
+    position: relative;
+    top: -3vh;
+    left: 1vh;
+    align-items: center;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.paginas1 {
+    position: relative;
+    color: aliceblue;
+    left: 55vh;
+    top: -11vh;
+}
+
+
+.btn {
+    position: relative;
+    left: 35vh;
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 0%;
+    background-color: rgb(140, 157, 235, 0.3);
+}
+
 
 .form-floating {
     position: relative;
@@ -260,14 +253,12 @@ body {
     position: relative;
     left: 20vh;
     color: rgb(255, 255, 255);
-
 }
 
 .pie {
     position: relative;
-    left: 60vh;
+    left: 70vh;
     top: 20px;
-
 }
 
 .copyright{
@@ -280,6 +271,7 @@ body {
 .pie-texto{
     position: relative;
     top: -2vh;
+    left: 14vh;
 }
 
 

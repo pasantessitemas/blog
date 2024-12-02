@@ -82,18 +82,7 @@ body {
     margin-top: 4%;
 }
 
-@keyframes Slide-in {
-    from {
-        transform: translateX(200%);
-    }
-
-    top {
-        transform: translateX(0);
-    }
-}
-
-
-.footer {
+.footer{
     position: relative;
     top: 9vh;
     width: 201, 5vh;
@@ -101,8 +90,7 @@ body {
     border-radius: 0%;
     background-color: rgb(140, 157, 235, 0.3);
     color: aliceblue;
-
-
+    
 }
 
 .pie {
@@ -117,5 +105,15 @@ body {
     }    
     to {
         opacity: 1;
+    }
+}
+
+@keyframes Slide-in {
+    from {
+        transform: translateX(200%);
+    }
+
+    top {
+        transform: translateX(0);
     }
 }
