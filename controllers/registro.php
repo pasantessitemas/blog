@@ -12,9 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $country = $_POST['country'];
 
 
-    $sql = "INSERT INTO users ('name, last_name, email, username, password, country') VALUES (?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO users ('usuario', 'contraseña', 'correo', 'nombre', 'apellido', pais) VALUES (?, ?, ?, ?, ?, ?)";
     if ($stmt = $conexion->prepare($sql)) { 
-        $stmt->bind_param("sssss", $usuario, $pass, $correo, $nombre, $apellido);
+        $stmt->bind_param("sssss", $usuario, $pass, $correo, $nombre, $apellido , $country);
         $stmt->execute();
         if ($stmt->affected_rows == 1) {
             echo 'Registro exitoso';
