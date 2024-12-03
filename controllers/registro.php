@@ -4,14 +4,16 @@ include("../config/conexion.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $usuario = $_POST['username'];
-    $pass = $_POST['password'];
-    $correo = $_POST['email'];
     $nombre = $_POST['name'];
     $apellido = $_POST['last_name'];
+    $correo = $_POST['email'];
+    $usuario = $_POST['username'];
+    $pass = $_POST['password'];
+    $country = $_POST['country'];
 
-    $sql = "INSERT INTO users (username, password, email, name, last_name) VALUES (?, ?, ?, ?, ?)";
-    if ($stmt = $conexion->prepare($sql)) {
+
+    $sql = "INSERT INTO users ('name, last_name, email, username, password, country') VALUES (?, ?, ?, ?, ?, ?)";
+    if ($stmt = $conexion->prepare($sql)) { 
         $stmt->bind_param("sssss", $usuario, $pass, $correo, $nombre, $apellido);
         $stmt->execute();
         if ($stmt->affected_rows == 1) {
@@ -20,12 +22,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo 'Error al registrar';
         }
         $stmt->close();
+        header('Location:../vistas/index.html');
     } else {
         echo 'Error en la preparación de la consulta';
     }
-
     $conexion->close();
 }
+
+?>
 
 
 
