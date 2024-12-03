@@ -1,40 +1,31 @@
 $(document).ready(function() {
-    $('#formulario-registro').on('submit', function(event) {
-        event.preventDefault(); // Evita el envío normal del formulario 
+    $('#formulario-ingreso').on('submit', function(event) {
+        event.preventDefault(); // Evita el envío normal del formulario
 
         // Recoge los datos del formulario
         const username = $('#username').val();
         const password = $('#password').val();
-        const email = $('#email').val();
-        const name = $('#name').val();
-        const last_name = $('#last_name').val();
-        const country = $('#country').val();
 
         // Envía la solicitud AJAX
-
         $.ajax({
-            url: '../controllers/registro.php', // Cambia esto por la URL de tu API
+            url: 'controllers/login.php', // Cambia esto por la URL de tu API
             type: 'POST',
             data: {
                 username: username,
-                password: password,
-                email: email,
-                name: name,
-                last_name: last_name,
-                country: country
+                password: password
             },
-            success: function(response) {
-                // Maneja la respuesta del servidor
+            success: function(response) { 
+                // Maneja la respuesta exitosa 
                 Swal.fire({ 
-                    title: "Registro exitoso!", 
-                    text: "Su registro ha sido exitoso.", 
+                    title: "Bienvenido!", 
+                    text: "Inicio de sesión exitoso.", 
                     icon: "success", 
                     timer: 1000, // Añade un temporizador a SweetAlert
                     showConfirmButton: false
                 }).then(() => { 
                     // Redirige después de 2 segundos
                     setTimeout(function() {
-                        window.location.href = '../index.html'; // Cambia esto a la ruta deseada
+                        window.location.href = 'vistas/Biotecnologia.html'; // Cambia esto a la ruta deseada
                     }, 1000);
                 });
                     },
