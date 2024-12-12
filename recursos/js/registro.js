@@ -35,6 +35,7 @@ $(document).ready(function() {
             success: function(response) {
                 if (response === "Registro exitoso") {
                     Swal.fire({ 
+<<<<<<< HEAD
                         title: "Registro exitoso!", 
                         text: "Su registro ha sido exitoso.", 
                         icon: "success", 
@@ -52,6 +53,30 @@ $(document).ready(function() {
                        // Redirige después de 2 segundos
                        window.location.href = '../index.html'; // Cambia esto a la ruta deseada
                 }
+=======
+                        text: "Su registro ha sido exitoso.", 
+                        icon: "success", 
+                        title: "Registro exitoso!", 
+                        timer: 2000, // Añade un temporizador a SweetAlert
+                        showConfirmButton: false
+                    }).then(() => {
+
+                    });
+                
+                } else {
+                    // Maneja el error con SweetAlert
+
+                    
+
+                    Swal.fire({
+                        icon: "info",
+                        text: response,
+                    });
+                    window.location.href = '../index.html'; // Redirige después de mostrar el mensaje
+                    
+                }
+               
+>>>>>>> c79d95c4274b69315c67ccb4f2916009c12b4fd3
             },
             error: function(xhr, status, error) {
                 // Maneja errores con SweetAlert

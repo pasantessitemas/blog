@@ -29,12 +29,17 @@ $(document).ready(function() {
                 if (response === "success") {
                     // Maneja la respuesta exitosa 
                     Swal.fire({ 
+<<<<<<< HEAD
                         title: "Bienvenido!", 
+=======
+                        title: "Bienvenido!",
+>>>>>>> c79d95c4274b69315c67ccb4f2916009c12b4fd3
                         text: "Inicio de sesión exitoso.", 
                         icon: "success", 
                         timer: 2000, // Añade un temporizador a SweetAlert
                         showConfirmButton: false
                     }).then(() => { 
+<<<<<<< HEAD
                 
                     });
                 } else {
@@ -43,6 +48,17 @@ $(document).ready(function() {
                     });
                       // Redirige después de 2 segundos
                       window.location.href = 'vistas/Biotecnologia.html'; // Cambia esto a la ruta deseada
+=======
+                        // Redirige después del temporizador
+                        window.location.href = 'vistas/Biotecnologia.html'; // Cambia esto a la ruta deseada
+                    });
+                } else {
+                    Swal.fire({
+                        title: "Error",
+                        text: "Usuario o contraseña incorrectos.",
+                        icon: "error",
+                    });
+>>>>>>> c79d95c4274b69315c67ccb4f2916009c12b4fd3
                 }
             },
             error: function(xhr, status, error) {
@@ -56,4 +72,7 @@ $(document).ready(function() {
         });
     });
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> c79d95c4274b69315c67ccb4f2916009c12b4fd3
