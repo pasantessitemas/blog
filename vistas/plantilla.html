@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mostrarEnlace(url) {
+            // Display the URL in the div with id "enlace-mostrado"
+            document.getElementById('enlace-mostrado').innerText = 'You clicked on: ' + url;
+        }
+    </script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <a href="https://www.google.com" onclick="event.preventDefault(); mostrarEnlace('https://www.google.com');">google</a>
+        <a href="https://www.bing.com" onclick="event.preventDefault(); mostrarEnlace('https://www.bing.com');">bing</a>
+    </div>
+    
+    <div id="enlace-mostrado"></div>
+</body>
+</html>

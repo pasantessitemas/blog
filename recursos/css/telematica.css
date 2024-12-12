@@ -1,0 +1,255 @@
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container-fluid {
+    background-image: url(../img/telecomunicacion2.webp);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 40vh;
+    left: 100vh;
+}
+
+.logo {
+    width: 18vh;
+    height: 20.vh;
+    position: relative;
+    right: 85vh;
+    border-radius: 10vh;
+    border-style: solid;
+    shape-margin: 15%;
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(128, 224, 170);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    position: relative;
+    right: 80vh;
+}
+
+.nav-item .btn {
+    position: relative;
+    left: -105vh;
+    top: 8vh;
+    height: 4vh;
+    width: 15vh;
+    background-color: rgb(212, 57, 57);
+    border-radius: 15vh;
+    border-style: solid;
+    shape-margin: 10%;
+}
+
+.subtitulo {
+    position: relative;
+    top: 5vh;
+    left: -108vh;
+    color: black;
+}
+
+.dropdown {
+
+    position: relative;
+    left: -22vh;
+    top: 3vh;
+}
+
+
+
+.titulo {
+    font-family: Georgia, 'Times New Roman5', Times, serif;
+    font-size: 70px;
+    position: relative;
+    left: 45vh;
+    top: -110vh;
+}
+
+.parrafo {
+    position: relative;
+    top: -100vh;
+}
+
+.container {
+
+    font-size: 20px;
+    position: relative;
+    width: 150vh;
+    height: 280vh;
+    left: 13vh;
+    justify-content: center;
+    align-content: center;
+    margin-top: -70vh;
+}
+
+
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70vh;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 0%;
+    position: relative;
+    top: -4vh;
+    background-color: rgb(140, 157, 235, 0.3);
+}
+
+.pagina {
+    position: relative;
+    top: 128px;
+    left: -5vh;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.logo1 {
+    width: 10vh;
+    height: 10;
+    position: relative;
+    top: 25vh;
+    left: -17vh;
+    border-radius: 8vh;
+}
+
+.btn_entrada {
+    left: 43vh;
+    position: relative;
+    top: -13vh;
+    height: 6vh;
+}
+
+.imgentrada {
+    width: 5vh;
+    position: relative;
+}
+
+.btn_entrada:hover .btn {
+    width: 15vh;
+    background-color: black;
+    left: -4vh;
+}
+
+
+
+.paginas {
+    position: relative;
+    top: 10vh;
+    left: 24vh;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(248, 248, 248, 0.5);
+}
+
+.pagina2 {
+
+    position: relative;
+    top: -3vh;
+    left: 1vh;
+    align-items: center;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.imagen {
+    position: relative;
+    width: 5vh;
+    color: aliceblue;
+}
+
+.imagn {
+    position: relative;
+    width: 7vh;
+    right: 1vh;
+    color: aliceblue;
+}
+
+.img01 {
+    width: 35vh;
+    height: 25vh;
+    position: relative;
+    left: 50vh;
+    bottom: 3vh;
+    border-radius: 8%;
+    shape-margin: 2%;
+    border-style: solid;
+    animation: fade-in 4s ease-in-out forwards;
+
+}
+
+.pie {
+    position: relative;
+    left: 60vh;
+    top: 10px;
+}
+
+.paginas1 {
+    position: relative;
+    color: aliceblue;
+    left: 55vh;
+    top: -11vh;
+}
+
+.informacion .card {
+    position: relative;
+    left: 2vh;
+    top: 5vh;
+    width: 40vh;
+    height: 45vh;
+
+}
+
+.informacion {
+    background-color: rgb(9, 32, 75);
+    position: relative;
+    top: 4vh;
+    left: 3vh;
+    width: 34vh;
+    height: 195vh;
+    animation: Slide-in 3s ease-in-out forwards;
+}
+
+.informacion .btn {
+    position: relative;
+    left: 2%;
+}
+
+.copyright {
+    position: relative;
+    left: 77vh;
+    top: 4vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes Slide-in {
+    from {
+        transform: translateX(-200%);
+    }
+
+    top {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -24,14 +24,41 @@ body {
     margin-left: 13vh;
 }
 
+.logo:hover {
+    width: 14vh;
+    height: 14;
+}
+
+.icono {
+    width: 3vh;
+    height: 3vh;
+    position: relative;
+    left: 2vh;
+    top: -5vh;
+
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 3vh;
+    top: 1vh;
+    left: -1px;
+}
+
+
 
 .container-fluid {
-    background-color: rgb(140, 157, 235, 0.3);
+    background-color: rgb(28, 28, 129, 0.3);
+    border-radius: 2%;
+    border-style: solid;
+    color: rgb(109, 78, 138);
+    height: 7vh;
 }
 
 .navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .container2 {
@@ -80,29 +107,32 @@ body {
     align-content: center;
     margin-left: 85vh;
     margin-top: 4%;
+    animation: fade-in 4s ease-in-out forwards;
 }
 
-.footer{
+.footer {
     position: relative;
     top: 9vh;
+    font-size: 15px;
     width: 201vh;
-    height: 9vh;
+    height: 7vh;
     border-radius: 0%;
     background-color: rgb(140, 157, 235, 0.3);
     color: aliceblue;
-    
+
 }
 
 .pie {
     position: relative;
-    left: 86vh;
-    top: 4vh;
+    left: 88vh;
+    top: 3vh;
 }
 
 @keyframes fade-in {
     from {
-        opacity: 0;     
-    }    
+        opacity: 0;
+    }
+
     to {
         opacity: 1;
     }

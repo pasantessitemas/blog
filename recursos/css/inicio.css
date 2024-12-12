@@ -8,7 +8,7 @@ body {
   background-image: url(../img/fondo_principal.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  
+
 }
 
 .container {
@@ -17,15 +17,15 @@ body {
   height: 38vh;
   margin-left: 80vh;
   margin-top: 16vh;
-  background-color: rgba(127, 155, 233,0.7);
+  background-color: rgba(127, 155, 233, 0.7);
   border-radius: 8vh;
   margin-right: 20vh;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 2, 0.75);
-  animation:  Slide-in 2s ease-in-out forwards;
+  animation: Slide-in 2s ease-in-out forwards;
 
 }
 
-.titulo{
+.titulo {
   width: 45vh;
   left: 10vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -35,19 +35,26 @@ body {
   align-content: center;
   margin-top: 4%;
   margin-left: 80vh;
+  animation: fade-in 4s ease-in-out forwards;
 
-}  
+}
 
 .container-fluid {
-  background-color: rgb(140, 157, 235, 0.3);
-}
- 
-.navbar-brand{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  background-color: rgb(28, 28, 129, 0.3);
+  border-radius: 2%;
+  border-style: solid;
+  color: rgb(109, 78, 138);
+  height: 7vh;
+
 }
 
-.logo1{
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+
+}
+
+.logo1 {
   width: 13vh;
   height: 13vh;
   border-radius: 60%;
@@ -55,17 +62,25 @@ body {
   shape-margin: 10%;
   margin-left: 13vh;
   margin-top: 4%;
+
 }
 
-.input-group{
+.logo1:hover {
+  width: 14vh;
+  height: 14;
+
+}
+
+.input-group {
   width: 35vh;
   margin-left: 2%;
   padding: 0;
   bottom: -3vh;
   left: 6px;
+
 }
 
-.input-group-text{
+.input-group-text {
   width: 12vh;
   height: 4vh;
   margin-top: 2%;
@@ -79,12 +94,12 @@ body {
   width: 30vh;
   margin-left: 5vh;
   margin-top: 2%;
-  
+
 }
 
-.boton{
- margin-left: 14vh;
-margin-top: 5vh;
+.boton {
+  margin-left: 14vh;
+  margin-top: 5vh;
 }
 
 .btn {
@@ -92,10 +107,10 @@ margin-top: 5vh;
   background-color: rgb(69, 78, 160);
 }
 
-.footer{
+.footer {
   position: relative;
   top: 14vh;
-  width: 201,5vh;
+  width: 201, 5vh;
   height: 10vh;
   border-radius: 0%;
   background-color: rgb(140, 157, 235, 0.3);
@@ -103,18 +118,39 @@ margin-top: 5vh;
 
 }
 
-.pie{
+.pie {
   position: relative;
-  left:88vh;
+  left: 88vh;
   top: 4vh;
 }
 
-@keyframes Slide-in{
+@keyframes Slide-in {
   from {
     transform: translateX(200%);
   }
+
   top {
     transform: translateX(0);
   }
 }
 
+@keyframes fade-in {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+
+@keyframes Slide-in {
+  from {
+      transform: translateX(-100%);
+  }
+
+  top {
+      transform: translateX(0);
+  }
+ }

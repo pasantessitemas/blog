@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-image: url(../img/fondo_principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icono {
+    width: 3vh;
+    height: 3vh;
+    position: relative;
+    left: 2vh;
+    top: -5vh;
+
+}
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+    position: relative;
+    top: 5vh;
+    left: 90vh;
+    animation: fade-in 4s ease-in-out forwards;
+}
+
+.perfil .nav-link {
+    color: aliceblue;
+    position: relative;
+    margin-top: 3vh;
+    top: 1vh;
+    left: -1px;
+}
+
+.introduccion {
+    width: 25vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    color: aliceblue;
+    top: 10vh;
+    left: 65vh;
+}
+
+.perfil {
+    color: black;
+
+}
+
+
+
+
+.perfil .container-fluid {
+    background-color: rgb(28, 28, 129, 0.3);
+    color: rgba(235, 241, 247, 0.5);
+    height: 7vh;
+    border-radius: 2%;
+    border-style: solid;
+    color: rgb(109, 78, 138);
+}
+
+.container-fluid .nav-link {
+    color: rgb(4, 5, 5);
+}
+
+.logo {
+    position: relative;
+    left: 32vh;
+    top: 28vh;
+    width: 28vh;
+    height: 30vh;
+    border-radius: 65%;
+    border-style: solid;
+    shape-margin: 6%;
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+.encabezado {
+    position: relative;
+    left: 80vh;
+    top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+
+.perfil .navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contenido .row {
+    position: relative;
+    width: 60vh;
+    top: -18vh;
+    left: 100vh;
+    background-color: rgb(48, 100, 177, 0.3);
+    animation: slide-in 2s ease-in-out forwards;
+
+
+}
+
+.contenido .row:hover {
+    width: 75vh;
+
+}
+
+.contenido .card-body {
+    background-color: rgb(0, 81, 255, 0.3);
+    border-radius: 3%;
+    border-style: solid;
+    shape-margin: 4%;
+    color: rgb(125, 48, 197);
+}
+
+.contenido .card-img-top {
+    border-radius: 3%;
+    border-style: solid;
+    shape-margin: 4%;
+    color: rgb(125, 48, 197);
+}
+
+.contenido .btn {
+    height: 4vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.contenido .btn:hover {
+    width: 20vh;
+    background-color: rgb(89, 80, 143);
+}
+
+.footer {
+    position: relative;
+    top: -0vh;
+    width: 200vh;
+    height: 10vh;
+    border-radius: 0%;
+    background-color: rgb(140, 157, 235, 0.3);
+    color: aliceblue;
+
+}
+
+.pie {
+    position: relative;
+    left: 88vh;
+    top: 4vh;
+}
+
+
+
+
+@keyframes slide-in {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -21,7 +21,7 @@ body {
 
 .logo {
     width: 18vh;
-    height: 20.vh;
+    height: 20vh;
     position: relative;
     right: 85vh;
     border-radius: 10vh;
@@ -53,8 +53,180 @@ body {
 }
 
 
+
+.icono {
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    left: -123vh;
+    top: 7vh;
+    object-fit: cover;
+}
+
+.icono-menu {
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    left: -131vh;
+    top: 9vh;
+    object-fit: cover;
+}
+
+.perfil .nav-link {
+    color: aliceblue;
+    position: relative;
+    margin-top: 1vh;
+    top: 4vh;
+    left: -130;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.perfil .botones {
+    position: relative;
+    left: -140vh;
+    top: 9vh;
+    height: 4vh;
+    width: 6vh;
+    background-color: rgb(28, 44, 184, 0.7);
+    border-radius: 15vh;
+    border-style: solid;
+    color: rgb(62, 62, 185, 0.3);
+    shape-margin: 5%;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.perfil .boton {
+    position: relative;
+    left: -234vh;
+    top: 9vh;
+    height: 4vh;
+    width: 6vh;
+    background-color: rgb(28, 44, 184, 0.7);
+    border-radius: 15vh;
+    border-style: solid;
+    color: rgb(62, 62, 185, 0.3);
+    shape-margin: 5%;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 .container {
-    background-color: rgba(29, 70, 148, 0.5);
+    position: relative;
+    width: 140vh;
+    left: 10vh;
+    justify-content: center;
+    align-content: center;
+    margin-top: -140vh;
+    padding: 20px;
+}
+
+.perfil .titulo {
+    font-family: Georgia, 'Times New Roman5', Times, serif;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: -80vh;
+    top: -1vh;
+    margin-bottom: 20px;
+}
+
+
+.titulo {
+    font-family: Georgia, 'Times New Roman5', Times, serif;
+    font-size: 50px;
+    position: relative;
+    left: 24vh;
+    top: -10vh;
+    margin-bottom: 20px;
+}
+
+.enlace {
+    position: relative;
+    left: 30vh;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.logo1 {
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    top: 25vh;
+    left: -17vh;
+    border-radius: 15vh;
+    object-fit: cover;
+    top: 7vh;
+    
+}
+
+.icono-menu {
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    left: -131vh;
+    top: 9vh; 
+  }
+
+  .btn_entrada{
+    left: 8vh;
+    position: relative;
+    top: -13vh;
+}
+
+.imagen{
+    width: 2vh;
+    left: 35vh;
+}
+
+.btn_entrada:hover
+.btn {
+  width: 11vh;
+  background-color: black;
+}
+
+
+  .perfil
+.nav-link  {
+    color: aliceblue;
+    position: relative;
+    margin-top:1vh;
+    top: 4vh;
+    left:-130;
+}   
+
+.perfil
+.botones{
+    position: relative;
+    left: -140vh;
+    top: 9vh;
+    height: 4vh;
+    width: 6vh;
+    background-color: rgb(28, 44, 184,0.7);
+    border-radius: 15vh;
+    border-style: solid;
+    color: rgb(62, 62, 185,0.3);
+    shape-margin: 5%;
+}
+
+.perfil
+.boton{
+    position: relative;
+    left: -234vh;
+    top: 9vh;
+    height: 4vh;
+    width: 6vh;
+    background-color: rgb(28, 44, 184,0.7);
+    border-radius: 15vh;
+    border-style: solid;
+    color: rgb(62, 62, 185,0.3);
+    shape-margin: 5%;
+}
+
+
+.container {
+    
     position: relative;
     width: 140vh;
     left: 10vh;
@@ -63,6 +235,15 @@ body {
     margin-top: -140vh;
 }
 
+.perfil
+.titulo {
+    font-family: Georgia, 'Times New Roman5', Times, serif;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: -80vh;
+    top: -1vh;
+}
 .titulo {
     font-family: Georgia, 'Times New Roman5', Times, serif;
     font-size: 50px;
@@ -90,9 +271,12 @@ body {
     font-size: 20px;
 }
 
+
+
 .informacion {
     background-color: rgb(9, 32, 75);
     width: 30vh;
+    height: 175vh;
     position: relative;
     left: 5vh;
     top: 6vh;
@@ -146,6 +330,7 @@ body {
     position: relative;
     width: 5vh;
     color: aliceblue;
+    left: -1vh;
 }
 
 .imagn {
@@ -153,6 +338,7 @@ body {
     width: 7vh;
     right: 1vh;
     color: aliceblue;
+    left: -1vh;
 }
 
 
@@ -225,20 +411,9 @@ body {
     color: aliceblue;
 }
 
-.entradas {
 
-    position: relative;
-    left: 25vh;
-    top: 17vh;
-    animation: Slide-in  4s ease-in-out forwards;
-}
 
-.entrada{
-    position: relative;
-    left: -50vh;
-    top: -18vh;
-    animation: Slide-in  4s ease-in-out forwards;
-}
+
 
 .row {
     width: 70vh;

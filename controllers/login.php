@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $result = $stmt->get_result();
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
-            if (password_verify($pass, $row['contraseña'])) {
-                header("Location: ../vistas/Biotecnologia.html");
-                exit();
+            if (password_verify($pass, $row['contraseña'])) { // Verifica la contraseña hash
+                echo "success";
             } else {
                 echo "Usuario o contraseña incorrectos";
+             
             }
         } else {
             echo "Usuario o contraseña incorrectos";
