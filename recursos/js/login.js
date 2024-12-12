@@ -3,8 +3,18 @@ $(document).ready(function() {
         event.preventDefault(); // Evita el envío normal del formulario
 
         // Recoge los datos del formulario
-        const username = $('#username').val();
-        const password = $('#password').val();
+        const username = $('#username').val().trim();
+        const password = $('#password').val().trim();
+
+        // Verifica que los campos no estén vacíos
+        if (!username || !password) {
+            Swal.fire({
+                title: "Error",
+                text: "Por favor, completa todos los campos.",
+                icon: "warning",
+            });
+            return; // Detiene la ejecución si hay campos vacíos
+        }
 
         // Envía la solicitud AJAX
         $.ajax({
@@ -15,25 +25,31 @@ $(document).ready(function() {
                 password: password
             },
             success: function(response) { 
-                // Maneja la respuesta exitosa 
-                Swal.fire({ 
-                    title: "Bienvenido!", 
-                    text: "Inicio de sesión exitoso.", 
-                    icon: "success", 
-                    timer: 1000, // Añade un temporizador a SweetAlert
-                    showConfirmButton: false
-                }).then(() => { 
-                    // Redirige después de 2 segundos
-                    setTimeout(function() {
+                if (response === "success") {
+                    // Maneja la respuesta exitosa 
+                    Swal.fire({ 
+                        title: "Bienvenido!",
+                        text: "Inicio de sesión exitoso.", 
+                        icon: "success", 
+                        timer: 2000, // Añade un temporizador a SweetAlert
+                        showConfirmButton: false
+                    }).then(() => { 
+                        // Redirige después del temporizador
                         window.location.href = 'vistas/Biotecnologia.html'; // Cambia esto a la ruta deseada
-                    }, 1000);
-                });
-                    },
+                    });
+                } else {
+                    Swal.fire({
+                        title: "Error",
+                        text: "Usuario o contraseña incorrectos.",
+                        icon: "error",
+                    });
+                }
+            },
             error: function(xhr, status, error) {
                 // Maneja errores con SweetAlert
                 Swal.fire({
                     title: "Error en el inicio de sesión",
-                    text: xhr.responseText,
+                    text: xhr.responseText || "Ocurrió un error inesperado.",
                     icon: "error",
                 });
             }
